@@ -18,7 +18,7 @@ func main() {
 	defer session.Close()
 	c := session.DB("local").C("$cmd.sys.inprog")
 
-	fmt.Println()
+	fmt.Println("Waiting for an index to be applied...\n ")
 	for true {
 		result := inProgress{}
 		c.Find(bson.M{}).One(&result)
@@ -27,7 +27,7 @@ func main() {
 		} else {
 			fmt.Println("\033[1A\r\033[K")
 		}
-		time.Sleep(time.Duration(1000) * time.Millisecond)
+		time.Sleep(time.Duration(200) * time.Millisecond)
 	}
 }
 
