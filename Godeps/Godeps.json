@@ -1,0 +1,45 @@
+{
+	"ImportPath": "github.com/plasma147/mongo-progress",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v63",
+	"Deps": [
+		{
+			"ImportPath": "github.com/fatih/color",
+			"Comment": "v0.1-17-g533cd7f",
+			"Rev": "533cd7fd8a85905f67a1753afb4deddc85ea174f"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-colorable",
+			"Comment": "v0.0.4",
+			"Rev": "45ce6a6f60010487dd0dbab368b5fbbed1c14ef0"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-isatty",
+			"Rev": "56b76bdf51f7708750eac80fa38b952bb9f32639"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "b776ec39b3e54652e09028aaaaac9757f4f8211a"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2",
+			"Comment": "r2016.02.04-1-gb6e2fa3",
+			"Rev": "b6e2fa371e64216a45e61072a96d4e3859f169da"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/bson",
+			"Comment": "r2016.02.04-1-gb6e2fa3",
+			"Rev": "b6e2fa371e64216a45e61072a96d4e3859f169da"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/internal/sasl",
+			"Comment": "r2016.02.04-1-gb6e2fa3",
+			"Rev": "b6e2fa371e64216a45e61072a96d4e3859f169da"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/internal/scram",
+			"Comment": "r2016.02.04-1-gb6e2fa3",
+			"Rev": "b6e2fa371e64216a45e61072a96d4e3859f169da"
+		}
+	]
+}
