@@ -1,5 +1,7 @@
 # mongo-progess
-Display progress of currently running index creation process for mongo
+An application for displaying the progress of currently running index creation process for mongo.
+
+Can be downloaded from [here](https://github.com/plasma147/mongo-progess/raw/0.0.1-release/mongo-progress) 
 
 ###Demo: 
 
