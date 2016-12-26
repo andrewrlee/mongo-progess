@@ -3,5 +3,4 @@ build:
   commands:
     - go get
     - go build
-    - echo "Hello"
     - go test
