@@ -14,3 +14,7 @@ Build using `go install`. Assuming `$GOPATH/bin` is on the path, run by executin
 Once the application is running it will either connect to an existing index creation process or wait until it detects a new index being applied. 
 It will then display the progress of process. The application will run indefinitely so requires Ctrl-C to terminate it. 
 
+
+
+
+
