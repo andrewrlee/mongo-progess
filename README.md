@@ -3,11 +3,11 @@ An application for displaying the progress of currently running index creation p
 
 A release that has been tested on ubuntu can be downloaded from [here](https://github.com/plasma147/mongo-progess/raw/0.0.1-release/mongo-progress) 
 
-###Demo: 
+### Demo: 
 
 [![asciicast](https://asciinema.org/a/byaxgodr2ho4q0ebnga1uorbx.png)](https://asciinema.org/a/byaxgodr2ho4q0ebnga1uorbx)
 
-###Building/Running
+### Building/Running
 
 Build using `go install`. Assuming `$GOPATH/bin` is on the path, run by executing `mongo-progress`. 
 
